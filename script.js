@@ -77,3 +77,17 @@ const header = document.querySelectorAll("header");
 window.addEventListener("scroll",function(){
     header.classList.toggle("sticky",window.scrollY> 50)
 })
+
+
+//Toggle Icon Navbar////////////////////////////////
+let menuIcon = document.querySelectorAll("#menu-icon");
+let navlist = document.querySelectorAll(".navlist");
+
+menuIcon.onclick = ()=>{
+    menuIcon.classList.toggle("bx-x");
+    navlist.classList.toggle("open");
+}
+window.onscroll = ()=>{
+    menuIcon.classList.remove("bx-x");
+    navlist.classList.replace("open");
+}
