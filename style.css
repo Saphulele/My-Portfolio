@@ -112,6 +112,7 @@ span{
     background: var(--hover-color);
     border-radius: 3px;
     color: var(--secon-bg-color);
+    display: inline;
 }
 section{
     padding: 100px 10%;
