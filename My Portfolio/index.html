@@ -508,17 +508,23 @@
             <span>Ask me question</span>
             <h2>Contact Me</h2>
         </div>
-        <form action="#" class="scroll-bottom">
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Your Email">
-            <input type="text" placeholder="Your Address">
-            <input type="number" placeholder="Phone Number">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <div class="btn-box formBtn">
+        <form
+            action="https://formspree.io/f/meojwkey"
+            method="POST"
+          >
+            <label>
+              Your email:
+              <input type="email" name="email">
+            </label>
+            <label>
+              Your message:
+              <textarea name="Your Message" id="" cols="30" rows="10"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+             <div class="btn-box formBtn">
                 <button type="submit" class="btn">Send Message</button>
-
-            </div>
-        </form>
+             </div>
+          </form>
        </section>
 
        <!--------------footer website-------------------------------->
